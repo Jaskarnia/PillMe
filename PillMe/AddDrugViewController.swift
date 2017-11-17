@@ -72,13 +72,11 @@ class AddDrugViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         }
         justAddedDrugLabel.isHidden = false
             
-        }
-        
         let content = UNMutableNotificationContent()
         content.title = "Time to take your Pills"
         content.body = "Take " + numOfPillChoices[rowOfPillChoice] + " " + input.text!
         content.sound = UNNotificationSound.default()
-       
+        
         let date = Date(timeIntervalSinceNow: time.date.timeIntervalSinceNow)
         
         let triggerDaily = Calendar.current.dateComponents([.hour,.minute,.second,], from: date)
@@ -91,6 +89,10 @@ class AddDrugViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
             }
         })
         notificationIdentifierCount+=1
+            
+        }
+        
+        
         
     }
     
