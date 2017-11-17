@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11D6F1AE1FBED2650082C6AA /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6F1AD1FBED2650082C6AA /* ARViewController.swift */; };
-		11D6F1B11FBED2930082C6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D6F1AF1FBED2920082C6AA /* LaunchScreen.storyboard */; };
-		11D6F1B21FBED2930082C6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D6F1B01FBED2930082C6AA /* Main.storyboard */; };
+		11D6F1B61FBEEE820082C6AA /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6F1B31FBEEE810082C6AA /* ARViewController.swift */; };
+		11D6F1B71FBEEE820082C6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D6F1B41FBEEE810082C6AA /* LaunchScreen.storyboard */; };
+		11D6F1B81FBEEE820082C6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D6F1B51FBEEE820082C6AA /* Main.storyboard */; };
 		53A5B90B1FB83D03002D86B1 /* CurrentDrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5B90A1FB83D03002D86B1 /* CurrentDrugViewController.swift */; };
 		53A5B90D1FB83D24002D86B1 /* AddDrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5B90C1FB83D24002D86B1 /* AddDrugViewController.swift */; };
 		53D811CC1FB7BB0300866981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D811CB1FB7BB0300866981 /* AppDelegate.swift */; };
@@ -20,9 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11D6F1AD1FBED2650082C6AA /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARViewController.swift; path = ../../ARViewController.swift; sourceTree = "<group>"; };
-		11D6F1AF1FBED2920082C6AA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../LaunchScreen.storyboard; sourceTree = "<group>"; };
-		11D6F1B01FBED2930082C6AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Main.storyboard; sourceTree = "<group>"; };
+		11D6F1B31FBEEE810082C6AA /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		11D6F1B41FBEEE810082C6AA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11D6F1B51FBEEE820082C6AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		53A5B90A1FB83D03002D86B1 /* CurrentDrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDrugViewController.swift; sourceTree = "<group>"; };
 		53A5B90C1FB83D24002D86B1 /* AddDrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrugViewController.swift; sourceTree = "<group>"; };
 		53D811C81FB7BB0300866981 /* PillMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,9 +67,9 @@
 				53D811CB1FB7BB0300866981 /* AppDelegate.swift */,
 				53D811CD1FB7BB0300866981 /* art.scnassets */,
 				53D811E11FB7D52500866981 /* ScheduleViewController.swift */,
-				11D6F1AD1FBED2650082C6AA /* ARViewController.swift */,
-				11D6F1AF1FBED2920082C6AA /* LaunchScreen.storyboard */,
-				11D6F1B01FBED2930082C6AA /* Main.storyboard */,
+				11D6F1B31FBEEE810082C6AA /* ARViewController.swift */,
+				11D6F1B41FBEEE810082C6AA /* LaunchScreen.storyboard */,
+				11D6F1B51FBEEE820082C6AA /* Main.storyboard */,
 				53D811DF1FB7C41700866981 /* LoginViewController.swift */,
 				53A5B90C1FB83D24002D86B1 /* AddDrugViewController.swift */,
 				53A5B90A1FB83D03002D86B1 /* CurrentDrugViewController.swift */,
@@ -138,10 +138,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D6F1B11FBED2930082C6AA /* LaunchScreen.storyboard in Resources */,
 				53D811CE1FB7BB0300866981 /* art.scnassets in Resources */,
 				53D811D51FB7BB0300866981 /* Assets.xcassets in Resources */,
-				11D6F1B21FBED2930082C6AA /* Main.storyboard in Resources */,
+				11D6F1B81FBEEE820082C6AA /* Main.storyboard in Resources */,
+				11D6F1B71FBEEE820082C6AA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,10 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11D6F1B61FBEEE820082C6AA /* ARViewController.swift in Sources */,
 				53A5B90D1FB83D24002D86B1 /* AddDrugViewController.swift in Sources */,
 				53A5B90B1FB83D03002D86B1 /* CurrentDrugViewController.swift in Sources */,
 				53D811E01FB7C41700866981 /* LoginViewController.swift in Sources */,
-				11D6F1AE1FBED2650082C6AA /* ARViewController.swift in Sources */,
 				53D811CC1FB7BB0300866981 /* AppDelegate.swift in Sources */,
 				53D811E21FB7D52500866981 /* ScheduleViewController.swift in Sources */,
 			);

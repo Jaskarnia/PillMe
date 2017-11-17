@@ -23,11 +23,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </arscnView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jex-BV-5py">
-                                <rect key="frame" x="92" y="564" width="191" height="30"/>
+                                <rect key="frame" x="92" y="554" width="191" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Go Back"/>
                                 <connections>
-                                    <segue destination="VGS-fJ-ES2" kind="show" id="cuk-pF-G1a"/>
+                                    <segue destination="hGG-FJ-WSW" kind="show" id="1vw-qF-gtx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -235,7 +236,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MU2-d6-sfv">
                                 <rect key="frame" x="16" y="566" width="343" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Go to AR"/>
                                 <connections>
                                     <action selector="curToArButton:" destination="VGS-fJ-ES2" eventType="touchUpInside" id="Ln1-il-Dwn"/>
                                 </connections>
@@ -284,6 +286,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="svy-g3-wUO"/>
-        <segue reference="cuk-pF-G1a"/>
+        <segue reference="1vw-qF-gtx"/>
     </inferredMetricsTieBreakers>
 </document>

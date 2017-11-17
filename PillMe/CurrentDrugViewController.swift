@@ -28,6 +28,7 @@ class CurrentDrugViewController: UIViewController, UITableViewDelegate, UITableV
         let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
         cell.textLabel?.text = list[indexPath.row][0] + " " + list[indexPath.row][1] + " - " + list[indexPath.row][2] + " pills" 
         let lightSwitch = UISwitch()
+        lightSwitch.setOn(true, animated: false)
         cell.accessoryView = lightSwitch
         
                 
