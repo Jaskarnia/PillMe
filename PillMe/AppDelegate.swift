@@ -7,16 +7,28 @@
 //
 
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    let center = UNUserNotificationCenter.current()
+    let options: UNAuthorizationOptions = [.alert, .sound]
+    let notificationDelegate = MYNotificationDelegate()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
         // Override point for customization after application launch.
+        
+        center.requestAuthorization(options: options){
+            (granted,error) in if !granted{
+                print("error: permission not granted")
+            }
+        }
+        
+        center.delegate=notificationDelegate
+        
         let font = UIFont(name: "Helvetica Neue", size: 20)
         UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.font: font], for: .normal)
         

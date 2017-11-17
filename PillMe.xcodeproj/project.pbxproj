@@ -10,6 +10,7 @@
 		11D6F1B61FBEEE820082C6AA /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6F1B31FBEEE810082C6AA /* ARViewController.swift */; };
 		11D6F1B71FBEEE820082C6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D6F1B41FBEEE810082C6AA /* LaunchScreen.storyboard */; };
 		11D6F1B81FBEEE820082C6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D6F1B51FBEEE820082C6AA /* Main.storyboard */; };
+		11D6F1BA1FBF60B30082C6AA /* notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6F1B91FBF60B30082C6AA /* notifications.swift */; };
 		53A5B90B1FB83D03002D86B1 /* CurrentDrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5B90A1FB83D03002D86B1 /* CurrentDrugViewController.swift */; };
 		53A5B90D1FB83D24002D86B1 /* AddDrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5B90C1FB83D24002D86B1 /* AddDrugViewController.swift */; };
 		53D811CC1FB7BB0300866981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D811CB1FB7BB0300866981 /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 		11D6F1B31FBEEE810082C6AA /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		11D6F1B41FBEEE810082C6AA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11D6F1B51FBEEE820082C6AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		11D6F1B91FBF60B30082C6AA /* notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifications.swift; sourceTree = "<group>"; };
 		53A5B90A1FB83D03002D86B1 /* CurrentDrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDrugViewController.swift; sourceTree = "<group>"; };
 		53A5B90C1FB83D24002D86B1 /* AddDrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrugViewController.swift; sourceTree = "<group>"; };
 		53D811C81FB7BB0300866981 /* PillMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +77,7 @@
 				53A5B90A1FB83D03002D86B1 /* CurrentDrugViewController.swift */,
 				53D811D41FB7BB0300866981 /* Assets.xcassets */,
 				53D811D91FB7BB0300866981 /* Info.plist */,
+				11D6F1B91FBF60B30082C6AA /* notifications.swift */,
 			);
 			path = PillMe;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				53D811E01FB7C41700866981 /* LoginViewController.swift in Sources */,
 				53D811CC1FB7BB0300866981 /* AppDelegate.swift in Sources */,
 				53D811E21FB7D52500866981 /* ScheduleViewController.swift in Sources */,
+				11D6F1BA1FBF60B30082C6AA /* notifications.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

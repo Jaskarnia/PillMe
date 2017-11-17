@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import UserNotifications
 
 class AddDrugViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
-
+    
+    let center = UNUserNotificationCenter.current()
+    var notificationIdentifierCount = 1
+    
     var rowOfPillChoice = 1 //used to store the row of numOfPills
     @IBOutlet weak var input: UITextField!
     @IBOutlet weak var time: UIDatePicker!
@@ -69,6 +73,25 @@ class AddDrugViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         justAddedDrugLabel.isHidden = false
             
         }
+        
+        let content = UNMutableNotificationContent()
+        content.title = "Time to take your Pills"
+        content.body = "Take " + numOfPillChoices[rowOfPillChoice] + " " + input.text!
+        content.sound = UNNotificationSound.default()
+       
+        let date = Date(timeIntervalSinceNow: time.date.timeIntervalSinceNow)
+        
+        let triggerDaily = Calendar.current.dateComponents([.hour,.minute,.second,], from: date)
+        let trigger = UNCalendarNotificationTrigger(dateMatching: triggerDaily, repeats: true)
+        let identifier =  String(notificationIdentifierCount)
+        let request = UNNotificationRequest(identifier:identifier, content:content,trigger:trigger)
+        center.add(request, withCompletionHandler: {
+            (error) in if error != nil{
+                print("error with notification")
+            }
+        })
+        notificationIdentifierCount+=1
+        
     }
     
     
